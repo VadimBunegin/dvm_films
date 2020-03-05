@@ -1,0 +1,48 @@
+ * {
+    --bg: radial-gradient(circle at 80px 40px, #1d1d1d, #272727, #101322);
+}
+
+body {
+    background: var(--bg);
+} */
+/* body {
+    background: url("./../img/bitcoin.jpg") 50%;
+} */
+
+.shop-item__img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.shopping-cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 600px;
+  height: 100vh;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  background: #f4f4f4;
+  z-index: 9999;
+  transition: 0.3s;
+}
+#cinema{
+  width: 100%;
+  height: 600px;
+  
+
+ }
+
+.shopping-cart_hidden {
+  transform: translate(102%, 0);
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 0.4s, translate 0.4s;
+  transform: translate(50px, 0);
+}
+
+.visible_content {
+  opacity: 1;
+  transform: translate(0, 0);
+}

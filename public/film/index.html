@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./../css/bootstrap.min.css">
+        <title>О нас</title>
+    
+<style> 
+body { 
+background:radial-gradient(circle at 80px 40px, #1d1d1d, #272727, #101322) ;
+color: #fff; /* Цвет текста */ 
+} 
+</style> 
+</head>
+<body>
+    <body>
+        <div class="loader ">Подождите немного!!!</div>
+        <div class="content">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Магазин</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/gallery">Главная <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">Фильмы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/register">Регистрация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О нас</a>
+                        </li>
+                        
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    
+                    
+                </div>
+            </nav>
+            
+            </div>
+        </header>
+        <img width="100%" height="500px" src="http://img1.wsimg.com/isteam/stock/6347">
+        <div class="text-dark">.</div>
+        <center>
+        <h1>О нас</h1>
+        </center>
+        <div class="text-dark">.</div>
+        <center>
+        <h3>Компания dvm_films с ноября 2019 года трудится над созданием короткометражных фильмов</h3>
+        <h3>На нашем счету уже более 10 фильмов!!!</h3>
+        <h3>И это очень много...</h3>
+        <h3>В будущем мы планируем выпускать еще больше хороших фильмов</h3>
+        <h3>А так же познавать как можно больше в монтаже и режисерстве!!!</h3>
+        </center>
+        <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       
+       <center>
+           <h1>Наша команда:</h1>
+       </center>
+       <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="text-dark">.</div>
+            <div class="card card text-center" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Бунегин Дмитрий</h5>
+                  <p class="card-text text-dark">Главный режисер</p>
+                  <a href="https://www.instagram.com/bun.541/" class="btn btn-primary">Instagram</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="text-dark">.</div>
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Бунегин Вадим</h5>
+          <p class="card-text text-dark">Главный режисер</p>
+          <a href="https://www.instagram.com/vadim_bunegin/" class="btn btn-primary">Instagram</a>
+        </div>
+      </div>
+          </div>
+          <div class="col-sm">
+            <div class="text-dark">.</div>
+      <div class="card card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Бунегина Мария</h5>
+          <p class="card-text text-dark">Главный режисер</p>
+          <a href="https://www.instagram.com/marusya_bunegina/" class="btn btn-primary">Instagram</a>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+       
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <center>
+       <h2>Заходите еще!!!</h2>
+    </center>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       <div class="text-dark">.</div>
+       
+        
+        
+    
+        <script>
+            let content = document.querySelector('.content')
+            let loader = document.querySelector('.loader')
+            console.log(content)
+            content.style.display = "none";
+            setTimeout(function() {
+                content.style.display = "block";
+                setTimeout(function() {
+                    content.classList.add("visible_content");
+                }, 400)
+                loader.style.display = "none";
+            }, 100)
+            
+        </script>
+         <style type="text/css">
+            #content {
+             width: 00px; /* Ширина слоя */
+             margin: 0 auto 50px; /* Выравнивание по центру */
+            }
+            #footer {
+             position: fixed; /* Фиксированное положение */
+             left: 0; bottom: 0; /* Левый нижний угол */
+             padding: 10px; /* Поля вокруг текста */
+             background: #303030; /* Цвет фона */
+             color: #fff; /* Цвет текста */
+             
+             width: 100%; /* Ширина слоя */
+            }
+           </style>
+          </head>
+          <body>
+           <div id="content">
+             
+             
+             
+             
+        
+    
+             
+           </div>
+           <center>
+        
+           <div id="footer">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+            <script src="https://yastatic.net/share2/share.js"></script>
+            <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,viber,whatsapp,skype,telegram"></div>
+            <div class="text-dark">.</div>
+                  </div>
+                  <div class="col-sm">
+                    <footer>
+                        <a href="https://www.instagram.com/dvm_films/" class="btn btn-primary">Instagram</a>
+                    </footer>
+                  </div>
+                  <div class="col-sm">
+                    &copy; dvm_films
+                    <div>2019-2020</div>
+                  </div>
+                </div>
+              </div>
+            </center>
+            
+            
+            
+           </div>
+          </body>
+         </html>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./js/login.js"></script>
+        <script src="./js/shop_items.js"></script>
+        <script src="./js/cart.js"></script>
+    </body>
+    
+        
+    
+    </html>
